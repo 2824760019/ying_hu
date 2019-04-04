@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.container{
+		width: 100%;
+		/*height: 2500px;*/
+		margin: 0 auto;
+	  /*  background-color: pink;*/
+		/*最大宽度*/
+		max-width: 640px;
+		/*最小宽度*/
+		min-width: 320px;
+}
+.h_top{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+/*	background-color: yellow;*/
+}
+.h_top img{
+	width: 100%;
+	height: 100%;
+}
+.h_kuang{
+	padding-top: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.h_kuang input[type="text"]{
+	
+	width: 90%;
+	line-height: 38px;
+	background-color: #f8f8f8;
+	border-radius: 18px 18px;
+	border: 1px solid #ccc;
+}
+.h_zhonghe{
+	width: 100%;
+	margin-top: 20px;
+	/*background-color: yellow;*/
+}
+.h_zhonghe ul{
+	display: flex;
+	justify-content: space-between;
+}
+.h_zhonghe ul li{
+	display: inline-block;
+}
+.h_zhonghe ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #999;
+}
+.h_zhonghe ul li:nth-child(2) i{
+	font-size: 1.5em;
+	display: inline-block;
+	color: #999;
+}
+.h_zhonghe ul li:nth-child(3) span{
+	display: inline-block;
+	font-size: 1.5em;
+	color: #999;
+}
+.h_zhonghe ul li:nth-child(4) b{
+	font-size: 1.5em;
+	display: inline-block;
+	color: #999;
+}
+.h_chang{
+	margin-top: 20px;
+	width: 100%;
+	border-top: 4px solid #ccc;
+	display: flex;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+}
+.left_chang{
+	flex: 1;
+	width: 100%;
+	margin-top: 10px;
+/*	background-color: yellow;*/
+}
+.left_chang img{
+	width: 100%;
+	height: 100%;
+	/*margin-left: 10px;*/
+	
+}
+.right_chang{
+	flex: 3;
+	width: 100%;
+	margin-top: 10px;
+/*	background-color: orange;*/
+}
+.right_chang p{
+	color: #000;
+	font-size: 14px;
+}
+.h_chen{
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+}
+.h_chen p{
+	width: 100%;
+	color: #999;
+	font-size: 16px;
+} 
+.h_chen p img{
+	width: 20px;
+	vertical-align: middle;
+}
+.h_chen p:nth-child(2){
+	display: flex;
+	justify-content: flex-end;
+}
+.h_chen p:nth-child(2) a{
+	color: #999;
+	text-decoration: none;
+}
+.h_jia{
+	width: 100%;
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.h_jia a:nth-child(1){
+	color:#ff6300;
+	font-size: 17px;
+	text-decoration: none;
+}
+.h_jia a:nth-child(2){
+	color:#999;
+	font-size: 17px;
+	text-decoration: none;
+}
+.h_chang1{
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+}
